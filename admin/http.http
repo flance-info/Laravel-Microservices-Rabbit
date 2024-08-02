@@ -1,0 +1,8 @@
+DELETE http://localhost:8003/api/products/11
+Accept: application/json;
+Content-Type: application/json
+
+{
+    "title": "new title",
+    "image": "new image"
+}
